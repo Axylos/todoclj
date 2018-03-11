@@ -13,5 +13,5 @@
 
 (defn find-users
   []
-  (select "users"
+  (select users
           (limit 1)))
